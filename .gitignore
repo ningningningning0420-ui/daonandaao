@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Logs / temp
+*.log
+*.tmp
+
+# Node (for future code)
+node_modules/
+dist/
