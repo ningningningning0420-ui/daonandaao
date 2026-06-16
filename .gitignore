@@ -11,3 +11,7 @@ Icon?
 # Node (for future code)
 node_modules/
 dist/
+
+# R / 杂项（误入库的导出 · 历史）
+.Rhistory
+设计文档.txt
