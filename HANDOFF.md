@@ -42,6 +42,8 @@
 ## 协作方式
 brainstorming：一次一个岔口、给推荐 + 理由、妖祀拍板 → 写进 `设计文档.md`（文风：全角标点 · **bold** · —— · → · 「」· §refs）→ commit 后 post-commit hook 自动推 GitHub。大改批量写、别让 git 史太碎。
 
+**★方法论分段（2026-06-16 拍板）**：判据 = 在「**决定 spec**」(→ brainstorm) 还是「对着定好的 spec **铺施工**」(→ plan)。**§21 续填用 brainstorm**——verdict 契约 / H·J 结构 / L1·L2 的 TS 形状 全是带 trade-off 的**设计决定、非机械翻译**,续现节奏(一口一 fork → 推荐 → 拍板 → 写 §21 → commit);现在切 plan 会对着未定契约空铺 TDD = 早。**切 plan 的信号 = §21 设计定稿 + 真写 React Phase 1 代码** → `writing-plans`(文件 / TDD 任务 / 接口)→ `subagent-driven` 或 `executing-plans` 执行(引擎核纯逻辑可单测 §20 R7 / T0 正合 TDD)。中间态:verdict 契约 + schema 锁死后落 TS 类型偏机械、可顺手 plan(属 §21 收尾)。**完整流 = brainstorm(设计)→ writing-plans(计划)→ executing(构建),现在仍第一段。**
+
 ## 下一步（接手就做）
 **内容生产 E 全闭合 + §21 技术 scaffold 立成**（2026-06-16）。接手先问妖祀走哪条：
 - **§21 逐口共写（进行中)**：**③ 三层模型 + A–J 归类 · ⑥ 因果确定性逻辑链 + scheme-stage · ② 多 call ≤3 已落**（2026-06-16）;**④ 脾性侧补了 §22.8 因果库 + §22.1 大奥升级**。**续填**:**verdict 契约**（横跨 ②③⑤ 中枢 · 建议先碰）/ H·J 结构 / ③⑥ 深挖 / ⑤ prompt / ⑦ 记忆 / ⑧ onboarding（待整体方向定）。一次一口、走 brainstorming。
